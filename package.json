@@ -8,7 +8,8 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "heroku:config": "heroku config"
+    "heroku:config": "heroku config",
+    "heroku:deploy": "git push heroku main"
   },
   "devDependencies": {},
   "dependencies": {
